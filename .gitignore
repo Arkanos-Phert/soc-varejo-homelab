@@ -1,0 +1,24 @@
+# --- Sistema operacional (Windows / WSL) ---
+*:Zone.Identifier
+Thumbs.db
+desktop.ini
+
+# --- Imagens de disco e VMs ---
+*.iso
+*.iso.bz2
+*.vdi
+*.vbox
+*.vbox-prev
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+
+# --- Segredos ---
+.env
+*.key
+*.pem
+
+# --- Exports brutos de configuração ---
+configs/raw/
